@@ -10,9 +10,7 @@ import javax.persistence.*;
  */
 @Entity
 @NamedQueries({
-	@NamedQuery(name = "OpcionesPerfil.findAll", query = "select o from OpcionesPerfil o"),
-	@NamedQuery(name = "Opcion.findByPadre", query = "select o from Opcion o where o.opcPadre =: opcPadre"),
-	@NamedQuery(name = "Opcion.findByCodigo", query = "select o from Opcion o where o.opcId =: opcId") })
+	@NamedQuery(name = "OpcionesPerfil.findAll", query = "select o from OpcionesPerfil o")})
 @Table(name="seg_claves_opciones_perfil")
 public class OpcionesPerfil implements Serializable {
 	private static final long serialVersionUID = 1L;

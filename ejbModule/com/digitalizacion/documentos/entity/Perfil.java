@@ -13,7 +13,7 @@ import java.util.Set;
 @Entity
 @NamedQueries({
 	@NamedQuery(name = "Perfil.findAll", query = "select o from Perfil o"),
-	@NamedQuery(name = "Perfil.findByCodigo", query = "select o from Perfil o where o.perId =: perId") })
+	@NamedQuery(name = "Perfil.findByCodigo", query = "select o from Perfil o where o.perId = :perId") })
 @Table(name="seg_claves_perfil")
 public class Perfil implements Serializable {
 	private static final long serialVersionUID = 1L;

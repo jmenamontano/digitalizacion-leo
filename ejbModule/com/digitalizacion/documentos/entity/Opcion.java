@@ -13,8 +13,8 @@ import java.util.Set;
 @Entity
 @NamedQueries({
 	@NamedQuery(name = "Opcion.findAll", query = "select o from Opcion o"),
-	@NamedQuery(name = "Opcion.findByPadre", query = "select o from Opcion o where o.opcPadre =: opcPadre"),
-	@NamedQuery(name = "Opcion.findByCodigo", query = "select o from Opcion o where o.opcId =: opcId") })
+	@NamedQuery(name = "Opcion.findByPadre", query = "select o from Opcion o where o.opcPadre = :opcPadre"),
+	@NamedQuery(name = "Opcion.findByCodigo", query = "select o from Opcion o where o.opcId = :opcId") })
 @Table(name="seg_claves_opciones")
 public class Opcion implements Serializable {
 	private static final long serialVersionUID = 1L;
