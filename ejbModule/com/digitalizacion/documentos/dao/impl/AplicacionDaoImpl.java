@@ -15,7 +15,9 @@ public class AplicacionDaoImpl extends GenericDaoImpl<Aplicacion, Long> implemen
 	public AplicacionDaoImpl() {
 		super(Aplicacion.class);
 	}
-
+/**
+ * Prueba de SVN
+ */
 	public Aplicacion buscarPorCodigo(String codigoAplicacion) {
 		List<Aplicacion> aplicaciones;
 		aplicaciones = findByNamedQueryNamedParameter("Aplicacion.findByCodigo", new NamedQueryParameter("apliCodigo",
