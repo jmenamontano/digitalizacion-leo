@@ -1,4 +1,4 @@
-digitalizacion-leo
-==================
+digitalizacion-documentos
+=========================
 
-proyecto tesis leo
+repositorio para proyecto de digitalizacion de documentos leo
